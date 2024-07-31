@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/0e92769dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>LudiLab</title>
+</head>
+<body>
+    <header class = "headerMenu">
+        <div class="logo">
+            <a href="index.html"><img src="./image_copilot/Logo_detourer.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="ulMenu">
+                <li><a href="">Acceuil</a></li>
+                <li><a href="#qui">Qui sommes-nous ?</a></li>
+                <li><a href="#actu">Notre projet</a></li>
+                <!--<li><a href="">Jeux Play To Earn</a></li>
+                <li><a href="">Jeux Metavers</a></li>
+                <li><a href="">Jeux NFT</a></li>
+                <li><a href="">Guide & Astuces</a></li>-->
+                <li><a href="#cont">Contact</a></li>
+                <li><a href="">Faire un don</a></li>
+            </ul>
+
+        </nav>
+        <div class="openMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="titre">
+            <h1>ASSOCIATION LUDILAB</h1>
+            <h3>Vaincre l'échec grâce au jeu.</h3>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class= "youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-discord"></i></a></li>
+            </ul>
+        </div>
+        <div class="imageTitre">
+            <img src="./image_copilot/image_ludilab_hero2.jpg" alt="image jeux">
+        </div>
+    </section>
+
+    <!-- <section class = "youtube_sect">
+        <div class = "youtube_test">
+            <iframe width="325" height="195"
+                src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A" frameborder="0">
+            </iframe>
+        </div>
+        <div class = "youtube_test">
+            <iframe width="325" height="195"
+                src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=2" frameborder="0">
+            </iframe>
+        </div>
+        <div class = "youtube_test">
+            <iframe width="325" height="195"
+                src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=3" frameborder="0">
+            </iframe>
+        </div>
+        <div class = "youtube_test">
+            <iframe width="325" height="195"
+                src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=4" frameborder="0">
+            </iframe>
+        </div>
+    </section> -->
+    <!-- <section class="section_youtube">
+
+    </section> -->
+
+    <section id="qui">
+        <h1>Qui sommes nous ?</h1>
+        <section class="hero">
+            <div class="imageTitre">
+                <img src="./image_copilot/image paragraphe 4.jpg" alt="image jeux">
+            </div>
+            <div class="titre">
+                <p>Dans un monde en constante évolution, l'éducation devient plus qu'une simple acquisition de connaissances ; c'est un levier crucial pour l'autonomisation des individus et le devellopement des communautés.</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="actu">
+        <h1>Notre projet</h1>
+        <section class="hero">
+            <div class="titre">
+                <h1>ASSOCIATION LUDILAB</h1>
+                <p>Offrant une approche novatrice, notre association s'engage à repousser les frontières de l'éducation traditionnelle en combinant jeu, technologie et créativité pour inspirer et motiver les jeunes.</p>
+                <p>Pour en savoir plus sur nous, lisez notre lite paper.</p>
+            </div>
+            <div class="imageTitre">
+                <img src="./image_copilot/image ludilab hero.jpg" alt="image jeux">
+            </div>
+        </section>
+        <!-- <div class="container-item">
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/Godsunchainedimg.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+        </div>
+        <div class="button-voir-plus">
+            <a href="">voir plus...</a>
+        </div> -->
+    </section>
+    <section id="cont" class="container-form">
+        <div class="title-section">
+            <h1>Ecrivez-nous !</h1>
+        </div>
+        <!-- ajouter le lien formulaire dans action -->
+        <form id="contact" action="" method="POST"> 
+            <div class="container-input">
+                <input type="text" name="name" id="name" placeholder="name">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" id="submit" value="Send">
+            <p class="insta-contact">
+                For a faster response you can also contact us on Instagram
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+        </form>
+    </section>
+    <section id="about">
+        <h1>Faire un Don</h1>
+        <p>
+            integrer formulaire de don !
+        </p>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+<!--<li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+<li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+<li><a href=""><i class="fa-brands fa-discord"></i></a></li>-->
