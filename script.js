@@ -1,3 +1,81 @@
+/*<!-- <section class = "youtube_sect">
+<div class = "youtube_test">
+    <iframe width="325" height="195"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A" frameborder="0">
+    </iframe>
+</div>
+<div class = "youtube_test">
+    <iframe width="325" height="195"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=2" frameborder="0">
+    </iframe>
+</div>
+<div class = "youtube_test">
+    <iframe width="325" height="195"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=3" frameborder="0">
+    </iframe>
+</div>
+<div class = "youtube_test">
+    <iframe width="325" height="195"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUxXj9ck-alp2vCeql5OCk2A&index=4" frameborder="0">
+    </iframe>
+</div>
+</section> -->
+<!-- <section class="section_youtube">
+
+/* .section_youtube {
+    width: 80%;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.section_youtube .video_youtube {
+    margin: auto;
+    width: 240px;
+    height: 195px;
+}
+
+.section_youtube .video_youtube a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} */
+
+<!-- <div class="container-item">
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/Godsunchainedimg.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./style/images/istockphoto-1178017061-2048x2048.jpg" alt="">
+                </div>
+                <h3>Actualité 1</h3>
+            </div>
+        </div>
+        <div class="button-voir-plus">
+            <a href="">voir plus...</a>
+        </div> -->
+
+</section> -->*/
+
+
 //axios.get("https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UCxXj9ck-alp2vCeql5OCk2A&maxResults=25&key=AIzaSyBf_DUvHVeeoyxT4UeR8HQjormgszjBFKY%20"), {Headers: {"content-type": "application/json"}}.then((res)=>{console.log(res.data)})
 
 /*let video

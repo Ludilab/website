@@ -11,12 +11,6 @@
     box-sizing: border-box;
 }
 
-/*body{
-    display: flex;
-    background: url(./images/desktop.webp) no-repeat center/cover;
-    background-size: cover;
-}*/
-
 body{
     background: url(../image_copilot/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -156,27 +150,6 @@ body::before
     width: 100%;
     object-fit: contain;
 }
-
-/* .section_youtube {
-    width: 80%;
-    z-index: 2;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-
-.section_youtube .video_youtube {
-    margin: auto;
-    width: 240px;
-    height: 195px;
-}
-
-.section_youtube .video_youtube a img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-} */
 
 .youtube_sect {
     display: flex;
